@@ -138,7 +138,7 @@
   // notifId -> resolved (true means card is already cleared)
   const cardResolved = new Map();
 
-  const DWELL_MS = 100;
+  const DWELL_MS = 50;
 
   let dwellBtn = null;
   let dwellStart = 0;
